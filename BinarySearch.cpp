@@ -20,7 +20,7 @@ int main()
    	cin >> num;
 
    	while( beg <= end){
-      	mid = (beg+end)/2;
+      	mid = (beg+ (end - beg)/2);
       	if(array[mid] == num)	{   
          	cout << "\nItem found at position "<< (mid+1);
 			 break;} 	
